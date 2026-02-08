@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -V '^[0-9]'
+grep -V "^[a-zA-Z]"
