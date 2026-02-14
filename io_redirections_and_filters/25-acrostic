@@ -1,2 +1,2 @@
 #!/bin/bash
-tr -cd '[:upper:]'
+tr -cd '[:upper:]' | cat - <(echo "")
